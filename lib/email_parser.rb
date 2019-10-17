@@ -7,7 +7,7 @@ class EmailAddressParser
   attr_accessor
 
   @@parsed_emails = Array.new
-  @@string_emails
+  @@string_emails = ""
 
   def self.all?
     @@parsed_emails
