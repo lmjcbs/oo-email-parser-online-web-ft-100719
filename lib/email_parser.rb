@@ -7,4 +7,5 @@ class EmailParser
   def initialize(emails_string)
 
   end
+  
 end
