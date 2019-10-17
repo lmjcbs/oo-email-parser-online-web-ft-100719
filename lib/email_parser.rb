@@ -8,7 +8,7 @@ class EmailAddressParser
   @@string_emails = ""
 
   def initialize(string)
-    @@string_emails = string.split(/[^,\s]/)
+    @@string_emails = string
   end
 
   def self.all
@@ -16,7 +16,7 @@ class EmailAddressParser
   end
 
   def self.parse
-
+    @@parsed_emails = @@string_emails..split(/[^,\s]/)
 
     self.all
   end
