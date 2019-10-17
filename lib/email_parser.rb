@@ -13,7 +13,7 @@ class EmailAddressParser
   end
 
   def self.parse
-    
+
   end
 
 end
