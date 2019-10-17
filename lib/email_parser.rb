@@ -10,7 +10,7 @@ class EmailAddressParser
   @@string_emails
 
   def self.all?
-    @@unique_emails
+    @@parsed_emails
   end
 
   def self.parse
