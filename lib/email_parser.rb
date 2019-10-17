@@ -8,7 +8,7 @@ class EmailAddressParser
   @@string_emails = ""
 
   def initialize(string)
-
+    @@string_emails = string
   end
 
   def self.all?
