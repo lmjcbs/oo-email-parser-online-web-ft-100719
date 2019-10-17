@@ -16,7 +16,7 @@ class EmailAddressParser
   end
 
   def parse
-    @@parsed_emails = @@string_emails.scan(/\w+[^,\s]/)
+    @@parsed_emails = @@string_emails.scan(/\w+@\w+\.com/)
     self.all
   end
 
