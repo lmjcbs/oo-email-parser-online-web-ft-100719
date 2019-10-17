@@ -4,6 +4,8 @@
 # or whitespace (' ').
 class EmailParser
 
+
+  @@unique_emails = Array.new
   def initialize(emails_string)
 
   end
@@ -11,5 +13,5 @@ class EmailParser
   def self.parse
 
   end
-  
+
 end
