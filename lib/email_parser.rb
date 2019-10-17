@@ -4,8 +4,10 @@
 # or whitespace (' ').
 class EmailParser
 
+  attr_accessor 
 
   @@unique_emails = Array.new
+
   def initialize(emails_string)
 
   end
