@@ -11,7 +11,7 @@ class EmailAddressParser
     @@string_emails = string
   end
 
-  def self.all
+  def all
     @@parsed_emails
   end
 
