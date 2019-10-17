@@ -7,6 +7,8 @@ class EmailAddressParser
   @@parsed_emails = Array.new
   @@string_emails = ""
 
+  def initialize
+
   def self.all?
     @@parsed_emails
   end
