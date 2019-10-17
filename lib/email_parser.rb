@@ -12,7 +12,7 @@ class EmailAddressParser
   end
 
   def all
-    @@parsed_emails
+    @@parsed_emails.uniq
   end
 
   def parse
