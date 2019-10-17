@@ -9,7 +9,7 @@ class EmailAddressParser
   @@unique_emails = Array.new
 
   def self.all?
-
+    @@unique_emails
   end
 
   def self.parse
