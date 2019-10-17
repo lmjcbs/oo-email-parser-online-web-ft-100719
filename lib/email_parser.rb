@@ -4,8 +4,6 @@
 # or whitespace (' ').
 class EmailAddressParser
 
-  attr_accessor
-
   @@parsed_emails = Array.new
   @@string_emails = ""
 
