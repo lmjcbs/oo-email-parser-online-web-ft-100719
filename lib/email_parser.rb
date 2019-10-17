@@ -15,7 +15,7 @@ class EmailAddressParser
     @@parsed_emails
   end
 
-  def self.parse
+  def parse
     @@parsed_emails = @@string_emails.split(/[^,\s]/)
     self.all
   end
