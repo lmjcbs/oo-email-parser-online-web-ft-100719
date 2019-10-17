@@ -14,6 +14,8 @@ class EmailAddressParser
 
   def self.parse
 
+
+    self.all
   end
 
 end
