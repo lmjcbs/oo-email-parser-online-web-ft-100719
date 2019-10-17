@@ -8,10 +8,6 @@ class EmailAddressParser
 
   @@unique_emails = Array.new
 
-  def initialize(emails_string)
-
-  end
-
   def self.parse
 
   end
